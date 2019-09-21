@@ -1,0 +1,259 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:callibri, Times New Roman, sans-serif;
+}
+body{
+	background:url(image/z.jpg);
+	background-size:cover;
+}
+#wrapper{
+	margin:auto;
+	width:900px;
+	overflow:hidden;
+	background-color:white;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+	box-shadow:1px 5px 5px 1px black;
+}
+#header{
+	background:url(image/tips.png);
+	width:900px;
+	height:300px;
+	overflow:hidden;
+	
+}
+
+#menu {
+	background-color:black;
+	width:900px;
+	height:40px;
+	border-bottom:3px solid #3CF;
+	border-top:3px solid #3CF;
+	
+}
+#menu ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	
+}
+#menu ul li{
+	float:left;
+	position:relative;
+}
+#menu ul li a{
+	display:block;
+	text-decoration:none;
+	color:white;
+	padding:10px 20px;
+	border-right:1px solid #636363;
+	
+}
+#menu ul li a:hover{
+	background-color:yellow;
+	color:black;
+	cursor:pointer;
+}
+#menu ul li ul {
+	display:none;
+}
+#menu ul li:hover ul{
+	display:block;
+	position:absolute;
+}
+#menu ul li:hover ul li a{
+	background-color:black;
+	color:white;
+	width:150px;
+	border-bottom:1px solid white;
+}
+#menu ul li:hover ul li a:hover{
+	background-color:yellow;
+	cursor:pointer;
+	color:black;
+	
+}
+#menu form {
+	float:right;
+	margin-top:5px;
+	margin-bottom:10px;
+	margin-right:10px;
+	
+}
+#menu form input {
+	border:none;
+	text-align:center;
+	height:30px;
+	color:#222;
+	z-index:9;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	border: 1px solid #88ECFB;
+	background: #fff url("http://1.bp.blogspot.com/-HrKLWlSZYE0/UUpmZ1tMwiI/AAAAAAAABl8/bsJWrMR_q4A/s000/search_32x32-32.png")no-repeat center left; 
+	
+}
+#daftar-artikel{
+	width:500px;
+	float:left;
+	border-left-width:1px solid 26px black;
+	
+	
+}
+.artikel{
+	margin-bottom:10px;
+	margin-top:15px;
+	overflow:hidden;
+	font-family:callibri;
+	border:1px solid #636363;
+	margin-left:5px;
+	
+}
+.artikel img {
+	float:left;
+	width:200px;
+	height:165px;
+	margin-right:10px;
+	margin-top:5px;
+	margin-left:4px;
+}
+.artikel b{
+	background-color:#DDDDDD;
+	color:#636363;
+	margin-right:10px;
+	font-size:14px;
+	margin-top:4px;
+}
+.artikel p{
+	margin-top:10px;
+	line-height:20px;
+}
+.artikel a{
+	text-decoration:none;
+	color:blue;
+	display:block;
+	text-align:right;
+	margin-right:5px;
+}
+.artikel a:hover{
+	color:blue;
+	cursor:pointer;
+	text-decoration:underline;
+}
+#sidebar {
+	float:right;
+	width:270px;
+	background-color:white;
+	margin-top:8px;
+	margin-right:5px;
+	border:1px solid #636363;
+	
+}
+#sidebar h2{
+	color:white;
+	font-size:18px;
+	background-color:#3CF;
+	border-bottom:4px #636363;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	
+}
+#sidebar ul {
+	list-style:none;
+	margin-left:30px;
+	margin-top:10px;
+}
+
+#sidebar ul li a{
+	float:left;
+	margin-left:5px;
+}
+#sidebar1 {
+	float:right;
+	width:270px;
+	background-color:white;
+	margin-top:12px;
+	margin-right:5px;
+	border:1px solid #636363;
+	
+}
+#sidebar1 h2{
+	color:white;
+	font-size:18px;
+	background-color:#3CF;
+	border-bottom:4px #636363;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+}
+#sidebar1 ul{
+	list-style:circle;
+	margin-left:18px;
+	color:#60C;
+}
+
+#sidebar1 ul li a{
+	text-decoration:none;
+	color:black;
+}
+#sidebar1 ul li a:hover{
+	text-decoration:underline;
+	color:blue;
+	cursor:pointer;
+}
+#sidebar2 {
+	float:right;
+	width:270px;
+	background-color:white;
+	margin-top:12px;
+	margin-right:5px;
+	border:1px solid #636363;
+	
+}
+#sidebar2 h2{
+	color:white;
+	font-size:18px;
+	background-color:#3CF;
+	border-bottom:4px #636363;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+}
+#sidebar2 p img {
+	width:200px;
+    height:165px;
+    -webkit-border-radius:50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+	margin-left:40px;
+	margin-top:8px;
+}
+
+#sidebar2 h4{
+	text-align:center;
+}
+#sidebar2 h4 a{
+	color:black;
+	text-decoration:none;
+}
+#sidebar2 h4 a:hover{
+	color:blue;
+}
+
+#footer{
+	clear:both;
+	text-align:center;
+	background-color:black;
+	color:white;
+	height:30px;
+	line-height:30px;
+}
+
+	
+	
